@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import Calculator from './components/state1/calculator'
 // import WelcomeDialog from './components/extends/extends'
+import Calculator from './components/parent/parent';
 import Lrapp from './components/extend2/extend2'
 
 
@@ -11,8 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {/* <Calculator/> */}
-        {/* <WelcomeDialog /> */}
+        <Calculator/>
         <Lrapp/>
         <a
           className="App-link"
